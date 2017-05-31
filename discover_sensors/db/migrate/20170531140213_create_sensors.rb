@@ -3,6 +3,7 @@ class CreateSensors < ActiveRecord::Migration[5.0]
     create_table :sensors do |t|
       t.string :name
       t.string :where
+      t.string :area
       t.string :used_for
       t.string :level
       t.integer :scale

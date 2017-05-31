@@ -15,6 +15,7 @@ ActiveRecord::Schema.define(version: 20170531140213) do
   create_table "sensors", force: :cascade do |t|
     t.string   "name"
     t.string   "where"
+    t.string   "area"
     t.string   "used_for"
     t.string   "level"
     t.integer  "scale"
