@@ -1,0 +1,66 @@
+<%= form_for :sensor, url: sensors_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :where %><br>
+    <%= f.text_field :where %>
+  </p>
+  <p>
+    <%= f.label :used_for %><br>
+    <%= f.text_field :used_for %>
+  </p>
+  <p>
+    <%= f.label :level %><br>
+    <%= f.text_field :level %>
+  </p>
+  <p>
+    <%= f.label :scale %><br>
+    <%= f.number_field :scale %>
+  </p>
+  <p>
+    <%= f.label :resolution %><br>
+    <%= f.text_field :resolution %>
+  </p>
+  <p>
+    <%= f.label :accuracy %><br>
+    <%= f.number_field :accuracy %>
+  </p>
+  <p>
+    <%= f.label :time_result %><br>
+    <%= f.number_field :time_result %>
+  </p>
+  <p>
+    <%= f.label :time %><br>
+    <%= f.number_field :time %>
+  </p>
+  <p>
+    <%= f.label :innovation %><br>
+    <%= f.number_field :innovation %>
+  </p>
+  <p>
+    <%= f.label :cost %><br>
+    <%= f.text_field :cost %>
+  </p>
+  <p>
+    <%= f.label :summary %><br>
+    <%= f.text_area :summary %>
+  </p>
+  <p>
+    <%= f.label :person %><br>
+    <%= f.text_field :person %>
+  </p>
+  <p>
+    <%= f.label :reference_project %><br>
+    <%= f.text_field :reference_project %>
+  </p>
+  <p>
+    <%= f.label :info %><br>
+    <%= f.text_area :info %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

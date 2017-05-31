@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  where: MyString
+  used_for: MyString
+  level: MyString
+  scale: 1
+  resolution: 1
+  accuracy: 1
+  time_result: 1
+  time: 1
+  innovation: 1
+  cost: MyString
+  summary: MyText
+  person: MyString
+  reference_project: MyString
+  info: MyText
+
+two:
+  name: MyString
+  where: MyString
+  used_for: MyString
+  level: MyString
+  scale: 1
+  resolution: 1
+  accuracy: 1
+  time_result: 1
+  time: 1
+  innovation: 1
+  cost: MyString
+  summary: MyText
+  person: MyString
+  reference_project: MyString
+  info: MyText

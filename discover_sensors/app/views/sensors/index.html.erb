@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @sensors.each do |sensor| %>
+    <tr>
+      <td><%= sensor.name %></td>
+      <td><%= sensor.where %></td>
+      <td><%= link_to 'Show', sensor_path(sensor) %></td>
+    </tr>
+  <% end %>
+</table>
